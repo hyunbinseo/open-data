@@ -10,7 +10,7 @@ for (let year = 2004; year <= new Date().getFullYear() + 1; year += 1) {
 		const mm = String(month).padStart(2, '0');
 		console.log(`${yyyy}-${mm}`);
 
-		const outDir = resolve(root, './data.go.kr/15012690/getRestDeInfo', `./${yyyy}`);
+		const outDir = resolve(root, './data.go.kr/B090041/getRestDeInfo', `./${yyyy}`);
 		mkdirSync(outDir, { recursive: true });
 
 		const data = await 공휴일_정보_조회(yyyy, mm, env.API_KEY_DATA_GO_KR);
