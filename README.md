@@ -11,12 +11,18 @@ pnpm install hyunbinseo/open-data
 
 ## 가공한 데이터
 
-### [대한민국의 연간 공휴일](/data/holidays)
+### 대한민국의 연간 공휴일
 
-[대한민국의 공휴일](https://github.com/hyunbinseo/holidays-kr#readme) 프로젝트 사용을 권장합니다.
+- [한국천문연구원 공휴일 정보](https://www.data.go.kr/data/15012690/openapi.do) 기반
+- [GitHub](/data/holidays/) 원본 자료
+- [jsDelivr CDN](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/data/holidays/)
+
+> 달력 제작의 기준이 되는 '월력요항' 기반 자료는 [대한민국의 공휴일]에서 제공됩니다.
+
+[대한민국의 공휴일]: https://github.com/hyunbinseo/holidays-kr#readme
 
 ```jsonc
-// https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/data/holidays/2027.json
+// 2027.json
 {
 	"2027-01-01": ["1월1일"],
 	"2027-02-06": ["설날"],
@@ -28,7 +34,10 @@ pnpm install hyunbinseo/open-data
 
 ### [한국천문연구원 공휴일 정보](https://www.data.go.kr/data/15012690/openapi.do)
 
-[대한민국의 공휴일](https://github.com/hyunbinseo/holidays-kr#readme) 프로젝트 사용을 권장합니다.
+- [GitHub](/data.go.kr/B090041/getRestDeInfo/) 원본 자료
+- [jsDelivr CDN](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/data.go.kr/B090041/getRestDeInfo/)
+
+> Google 캘린더, 자바스크립트 라이브러리 등은 [대한민국의 공휴일]에서 제공됩니다.
 
 ```diff
 # 2027년 12월 조회
