@@ -1,4 +1,5 @@
 {
+	"name": "@hyunbinseo/open-data",
 	"type": "module",
 	"scripts": {
 		"check": "tsc --noEmit",
