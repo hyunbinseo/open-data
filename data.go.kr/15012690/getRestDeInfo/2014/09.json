@@ -1,0 +1,45 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "추석",
+						"isHoliday": "Y",
+						"locdate": 20140907,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "추석",
+						"isHoliday": "Y",
+						"locdate": 20140908,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "추석",
+						"isHoliday": "Y",
+						"locdate": 20140909,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "대체공휴일",
+						"isHoliday": "Y",
+						"locdate": 20140910,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 4
+		}
+	}
+}

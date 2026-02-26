@@ -1,0 +1,31 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "석가탄신일",
+						"isHoliday": "Y",
+						"locdate": 20090502,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "어린이날",
+						"isHoliday": "Y",
+						"locdate": 20090505,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 2
+		}
+	}
+}

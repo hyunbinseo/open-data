@@ -1,0 +1,45 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "설날",
+						"isHoliday": "Y",
+						"locdate": 20160207,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "설날",
+						"isHoliday": "Y",
+						"locdate": 20160208,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "설날",
+						"isHoliday": "Y",
+						"locdate": 20160209,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "대체공휴일",
+						"isHoliday": "Y",
+						"locdate": 20160210,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 4
+		}
+	}
+}

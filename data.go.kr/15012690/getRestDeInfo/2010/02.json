@@ -1,0 +1,38 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "설날",
+						"isHoliday": "Y",
+						"locdate": 20100213,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "설날",
+						"isHoliday": "Y",
+						"locdate": 20100214,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "설날",
+						"isHoliday": "Y",
+						"locdate": 20100215,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 3
+		}
+	}
+}

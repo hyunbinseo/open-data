@@ -1,0 +1,38 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "추석",
+						"isHoliday": "Y",
+						"locdate": 20050917,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "추석",
+						"isHoliday": "Y",
+						"locdate": 20050918,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "추석",
+						"isHoliday": "Y",
+						"locdate": 20050919,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 3
+		}
+	}
+}

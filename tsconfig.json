@@ -1,7 +1,6 @@
 {
 	"compilerOptions": {
 		// File Layout
-		"rootDir": "./src",
 		"outDir": "./dist",
 
 		// Environment Settings
@@ -36,6 +35,8 @@
 		"skipLibCheck": true,
 
 		// Additional Options
+		"noEmit": true,
+		"allowImportingTsExtensions": true,
 		"allowUnreachableCode": false,
 		"allowUnusedLabels": false,
 	},

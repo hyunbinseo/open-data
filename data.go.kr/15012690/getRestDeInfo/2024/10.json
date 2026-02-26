@@ -1,0 +1,38 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "임시공휴일",
+						"isHoliday": "Y",
+						"locdate": 20241001,
+						"seq": 2
+					},
+					{
+						"dateKind": "01",
+						"dateName": "개천절",
+						"isHoliday": "Y",
+						"locdate": 20241003,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "한글날",
+						"isHoliday": "Y",
+						"locdate": 20241009,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 3
+		}
+	}
+}

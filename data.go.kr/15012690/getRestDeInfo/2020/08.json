@@ -1,0 +1,31 @@
+{
+	"response": {
+		"header": {
+			"resultCode": "00",
+			"resultMsg": "NORMAL SERVICE."
+		},
+		"body": {
+			"items": {
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "광복절",
+						"isHoliday": "Y",
+						"locdate": 20200815,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "임시공휴일",
+						"isHoliday": "Y",
+						"locdate": 20200817,
+						"seq": 1
+					}
+				]
+			},
+			"numOfRows": 100,
+			"pageNo": 1,
+			"totalCount": 2
+		}
+	}
+}
