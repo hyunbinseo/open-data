@@ -5,6 +5,7 @@
 	"quoteProps": "consistent",
 	"trailingComma": "all",
 	"printWidth": 100,
-	"sortPackageJson": true,
-	"ignorePatterns": []
+	"sortImports": {
+		"newlinesBetween": false
+	}
 }
