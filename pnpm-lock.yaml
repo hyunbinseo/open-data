@@ -18,11 +18,11 @@ importers:
         specifier: ^1.58.0
         version: 1.58.0
       typescript:
-        specifier: 6.0.0-beta
-        version: 6.0.0-beta
+        specifier: ^6.0.2
+        version: 6.0.2
       valibot:
         specifier: ^1.2.0
-        version: 1.2.0(typescript@6.0.0-beta)
+        version: 1.2.0(typescript@6.0.2)
 
 packages:
 
@@ -292,8 +292,8 @@ packages:
     resolution: {integrity: sha512-Pugqs6M0m7Lv1I7FtxN4aoyToKg1C4tu+/381vH35y8oENM/Ai7f7C4StcoK4/+BSw9ebcS8jRiVrORFKCALLw==}
     engines: {node: ^20.0.0 || >=22.0.0}
 
-  typescript@6.0.0-beta:
-    resolution: {integrity: sha512-CldZdztDpQRLM1HC6WDQjQkQN5Ub5zRau737a1diGh3lPmb9oRsaWHk1y5iqK0o7+1bNJ0oXfEGRkAogFZBL+Q==}
+  typescript@6.0.2:
+    resolution: {integrity: sha512-bGdAIrZ0wiGDo5l8c++HWtbaNCWTS4UTv7RaTH/ThVIgjkveJt83m74bBHMJkuCbslY8ixgLBVZJIOiQlQTjfQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -476,10 +476,10 @@ snapshots:
 
   tinypool@2.1.0: {}
 
-  typescript@6.0.0-beta: {}
+  typescript@6.0.2: {}
 
   undici-types@7.18.2: {}
 
-  valibot@1.2.0(typescript@6.0.0-beta):
+  valibot@1.2.0(typescript@6.0.2):
     optionalDependencies:
-      typescript: 6.0.0-beta
+      typescript: 6.0.2

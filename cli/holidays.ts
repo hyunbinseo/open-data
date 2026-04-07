@@ -18,5 +18,6 @@ export const 공휴일_정보_조회 = async (yyyy: string, mm: string, API_KEY:
 
 	const response = await fetch(url);
 	if (!response.ok) throw new Error(`HTTP ${response.status}`);
-	return await response.json();
+
+	return response.json();
 };

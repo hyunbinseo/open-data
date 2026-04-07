@@ -2,9 +2,9 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { format } from 'oxfmt';
 import { parse } from 'valibot';
-import { env } from '../env.ts';
-import { root } from '../utilities.ts';
-import { 공휴일_정보_조회 } from './index.ts';
+import { env } from '#cli/env.ts';
+import { 공휴일_정보_조회 } from '#cli/holidays.ts';
+import { root } from '#cli/utilities.ts';
 import { ResponseSchema } from './schema.ts';
 
 for (let year = 2004; year <= new Date().getFullYear() + 1; year += 1) {
