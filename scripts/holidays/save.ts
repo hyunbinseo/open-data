@@ -7,7 +7,10 @@ import { 공휴일_정보_조회 } from '#cli/holidays.ts';
 import { root } from '#cli/utilities.ts';
 import { ResponseSchema } from './schema.ts';
 
-for (let year = 2004; year <= new Date().getFullYear() + 1; year += 1) {
+const currentYear = new Date().getFullYear();
+
+// NOTE API provides data from year 2004
+for (let year = currentYear - 2; year <= currentYear + 1; year += 1) {
 	const yyyy = String(year);
 	const holidays: Record<string, string[]> = {};
 
