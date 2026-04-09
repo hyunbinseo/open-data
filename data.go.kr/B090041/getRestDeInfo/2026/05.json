@@ -9,6 +9,13 @@
 				"item": [
 					{
 						"dateKind": "01",
+						"dateName": "노동절",
+						"isHoliday": "Y",
+						"locdate": 20260501,
+						"seq": 2
+					},
+					{
+						"dateKind": "01",
 						"dateName": "어린이날",
 						"isHoliday": "Y",
 						"locdate": 20260505,
@@ -32,7 +39,7 @@
 			},
 			"numOfRows": 100,
 			"pageNo": 1,
-			"totalCount": 3
+			"totalCount": 4
 		}
 	}
 }
