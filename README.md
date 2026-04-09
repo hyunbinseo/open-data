@@ -1,6 +1,6 @@
 ## 사용법
 
-- [jsDelivr](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/) 등 CDN 활용
+- [jsDelivr](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@main/) 등 CDN 활용
 - [npm 패키지](https://docs.npmjs.com/cli/v11/commands/npm-install) 형태로 설치
 
 ```shell
@@ -15,7 +15,7 @@ pnpm install hyunbinseo/open-data
 
 - [한국천문연구원 공휴일 정보](https://www.data.go.kr/data/15012690/openapi.do) 기반
 - [GitHub](/data/holidays/) 원본 자료
-- [jsDelivr CDN](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/data/holidays/)
+- [jsDelivr CDN](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@main/data/holidays/)
 
 > 달력 제작의 기준이 되는 '월력요항' 기반 자료는 [대한민국의 공휴일]에서 제공됩니다.
 
@@ -35,12 +35,12 @@ pnpm install hyunbinseo/open-data
 ### [한국천문연구원 공휴일 정보](https://www.data.go.kr/data/15012690/openapi.do)
 
 - [GitHub](/data.go.kr/B090041/getRestDeInfo/) 원본 자료
-- [jsDelivr CDN](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/data.go.kr/B090041/getRestDeInfo/)
+- [jsDelivr CDN](https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@main/data.go.kr/B090041/getRestDeInfo/)
 
 > Google 캘린더, 자바스크립트 라이브러리 등은 [대한민국의 공휴일]에서 제공됩니다.
 
 ```diff
 # 2027년 12월 조회
 - https://apis.data.go.kr/B090041/openapi/service/SpcdeInfoService/getRestDeInfo?solYear=2027&solMonth=12&_type=json&serviceKey=<key>
-+ https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@master/data.go.kr/B090041/getRestDeInfo/2027/12.json
++ https://cdn.jsdelivr.net/gh/hyunbinseo/open-data@main/data.go.kr/B090041/getRestDeInfo/2027/12.json
 ```
