@@ -6,17 +6,26 @@
 		},
 		"body": {
 			"items": {
-				"item": {
-					"dateKind": "01",
-					"dateName": "제헌절",
-					"isHoliday": "Y",
-					"locdate": 20270717,
-					"seq": 1
-				}
+				"item": [
+					{
+						"dateKind": "01",
+						"dateName": "제헌절",
+						"isHoliday": "Y",
+						"locdate": 20270717,
+						"seq": 1
+					},
+					{
+						"dateKind": "01",
+						"dateName": "대체공휴일(제헌절)",
+						"isHoliday": "Y",
+						"locdate": 20270719,
+						"seq": 1
+					}
+				]
 			},
 			"numOfRows": 100,
 			"pageNo": 1,
-			"totalCount": 1
+			"totalCount": 2
 		}
 	}
 }
